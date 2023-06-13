@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.static("./src/public"));
 app.use(express.json());
 
-app.use("/api/v1", userRoute);
+app.use("/api/v1/user", userRoute);
 
 app.get("/", (req, res) => {
   res.send("Welcome");

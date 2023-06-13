@@ -26,9 +26,6 @@ module.exports = {
       },
       role: {
         type: Sequelize.STRING,
-        validates: {
-          default: "staff",
-        },
       },
       createdAt: {
         allowNull: false,
