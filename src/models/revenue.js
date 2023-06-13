@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
   Revenue.init(
     {
       revenue: DataTypes.INTEGER,
-      day: DataTypes.STRING,
     },
     {
       sequelize,
